@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230312233528">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+			<div data-fullscreen class="hero">
+				<div class="hero__conatiner">
+					<a href="#" class="hero__logo logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture>
+					</a>
+					<h3 class="hero__label">Сайт в процессе ребрендинга!</h3>
+					<p class="hero__text">Пока что можете изучить наши соцсети:</p>
+					<div class="hero__social social">
+						<a href="#" class="social__item">
+							<picture><source srcset="img/icons/vk.webp" type="image/webp"><img src="img/icons/vk.png" alt="icon:vk"></picture>
+						</a>
+						<a href="#" class="social__item">
+							<picture><source srcset="img/icons/instagram.webp" type="image/webp"><img src="img/icons/instagram.png" alt="icon:instagram"></picture>
+						</a>
+						<a href="#" class="social__item">
+							<picture><source srcset="img/icons/yandex.webp" type="image/webp"><img src="img/icons/yandex.png" alt="icon:yandex"></picture>
+						</a>
+					</div>
+					<h2 class="hero__subtitle">Аренда оборудования для кино и тв
+					</h2>
+					<p class="hero__description">
+						Заказ оборудования через telegram bot - просим прощения за временные неудобства
+					</p>
+					<div data-timer class="timer">
+						<div data-count-day class="timer__item timer__item_days">
+							<span data-count-value class="timer__value">00</span>
+							<div data-count-text class="timer__text">days</div>
+						</div>
+						<div data-count-hours class="timer__item timer__item_hours">
+							<span data-count-value class="timer__value">00</span>
+							<div data-count-text class="timer__text">hourse</div>
+						</div>
+						<div data-count-minutes class="timer__item timer__item_minutes">
+							<span data-count-value class="timer__value">00</span>
+							<div data-count-text class="timer__text">minutes</div>
+						</div>
+						<div data-count-seconds class="timer__item timer__item_seconds">
+							<span data-count-value class="timer__value">00</span>
+							<div data-count-text class="timer__text">seconds</div>
+						</div>
+					</div>
+					<button type="button" data-popup="#popup" class="hero__button">Написать нам</button>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<!-- <button data-close type="button" class="popup__close">Закрыть</button> -->
+				<div class="popup__inner">
+					<a href="#" class="popup__logo">
+						<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture>
+					</a>
+					<form data-dev action="#" class="popup__form form-popup">
+						<div class="form-popup__line">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя" class="input">
+						</div>
+						<div class="form-popup__line">
+							<input autocomplete="off" data-required="email" type="text" name="form[]" data-error="Адрес электронной почты неверен" placeholder="E-mail" class="input">
+						</div>
+						<textarea placeholder="Ваш комментарий" name="Ваш комментарий" id=""></textarea>
+						<button type="submit" class="form-popup__button">Написать нам</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>`
+	<script src="js/app.min.js?_v=20230312233528"></script>
+</body>
+
+</html>
