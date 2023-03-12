@@ -510,7 +510,7 @@ body::after {
 }
 
 .social__item {
-  border: 0.5px solid #ffffff;
+  border: 1px solid #ffffff;
   width: 74px;
   height: 74px;
   border-radius: 50%;
