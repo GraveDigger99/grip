@@ -234,6 +234,7 @@ body::after {
 
 .popup__content {
   visibility: hidden;
+  position: relative;
   -webkit-transform: scale(0);
       -ms-transform: scale(0);
           transform: scale(0);
@@ -251,6 +252,12 @@ body::after {
 
 .lock .popup__content {
   visibility: visible;
+}
+
+.popup__close {
+  position: absolute;
+  top: 36px;
+  right: 36px;
 }
 
 .popup__inner {
@@ -307,6 +314,9 @@ body::after {
   padding: 1.25rem 0rem;
   color: #ffffff;
   width: 100%;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 .form-popup__line {
@@ -452,6 +462,7 @@ body::after {
 
 .hero__text {
   font-weight: 400;
+  text-align: center;
   line-height: 1.2;
   color: #ffffff;
 }
@@ -773,6 +784,10 @@ body::after {
 }
 
 @media (any-hover: hover) {
+  .form-popup__button:hover {
+    background: rgba(237, 74, 66, 0.6078431373);
+  }
+
   .hero__button:hover {
     background: rgba(237, 74, 66, 0.6078431373);
   }
